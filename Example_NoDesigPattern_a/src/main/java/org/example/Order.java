@@ -2,11 +2,11 @@ package org.example;
 
 public class Order {
     private int orderID;
-    private String payment;
+    private PaymentState paymentState;
 
-    public Order(int orderID, String payment) {
+    public Order(int orderID, PaymentState paymentState) {
         this.orderID = orderID;
-        this.payment = payment;
+        this.paymentState = paymentState;
     }
 
     public int getOrderID() {
@@ -18,19 +18,10 @@ public class Order {
     }
 
     public String getPayment() {
-        if(payment=="Cash"){
-            return "Thanh Toan Bang Tien Mat";
-        } else if(payment=="Tranfer"){
-            return "Thanh Toan Bang Chuyen Khoan";
-        }else if(payment=="VNPay"){
-            return "Thanh Toan Bang VN Pay";
-        }
-        return payment;
+        return paymentState.getPaymentDescription();
     }
 
-    public void setPayment(String payment) {
-        this.payment = payment;
+    public void setPaymentState(PaymentState paymentState) {
+        this.paymentState = paymentState;
     }
-
-
 }
