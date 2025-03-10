@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ea9b818-667d-4207-b912-bdf103100f32" name="Changes" comment="" />
+    <list default="true" id="5ea9b818-667d-4207-b912-bdf103100f32" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DesignPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_NoDesigPattern_a/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_NoDesigPattern_a/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_NoDesigPattern_a/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_NoDesigPattern_a/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_NoDesigPattern_a/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_NoDesigPattern_a/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_NoDesigPattern_a/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_NoDesigPattern_a/src/main/java/org/example/CashPaymentState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_NoDesigPattern_a/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_NoDesigPattern_a/src/main/java/org/example/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_NoDesigPattern_a/src/main/java/org/example/PaymentState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_NoDesigPattern_a/src/main/java/org/example/TransferPaymentState.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example_NoDesigPattern_a/src/main/java/org/example/VNPayPaymentState.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +34,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2tvAFvEITBcRjYq8YNv8Kowk4C0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,18 +44,51 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "T:/TranQuocAnh/DesignPattern",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Kiến trúc và thiết kế phần mềm/DesignPattern",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Example_DesigPattern_a" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,6 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741222073157</updated>
       <workItem from="1741222074782" duration="744000" />
+      <workItem from="1741616267332" duration="509000" />
     </task>
     <servers />
   </component>
